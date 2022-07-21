@@ -1,0 +1,191 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/project/index",
+		"style": {
+			"navigationBarTitleText": "海悦尚珩"
+		}
+	},
+		{
+		    "path" : "pages/public/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+		    "path" : "pages/project/carddetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "名片详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/my/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+
+		{
+			"path": "pages/my/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"enablePullDownRefresh": false
+			}
+		
+		}
+
+
+	    ,{
+            "path" : "pages/my/activity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/cardHolder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "名片夹",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/project/cardHolderlist",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "顾问列表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/my/process",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购房进程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/shareRecords",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分享记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/introduction",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "功能介绍",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/project/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/project/picture",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "查看图片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/project/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "聊天",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#a8a8a8",
+		"selectedColor": "#3c78d8",
+		"borderStyle": "black",
+		// "height": "",/* 50px */
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/xuanzhong.png",
+				"selectedIconPath": "static/xuanzhong1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/project/index",
+				"iconPath": "static/loupan.png",
+				"selectedIconPath": "static/loupan1.png",
+				"text": "项目"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/wode.png",
+				"selectedIconPath": "static/wode1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

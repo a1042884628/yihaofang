@@ -1,0 +1,1 @@
+<view><tui-tabs vue-id="7b90f447-1" currentTab="{{tabCurrentIndex}}" tabs="{{tabs}}" itemWidth="25%" data-event-opts="{{[['^change',[['change']]]]}}" bind:change="__e" bind:__l="__l"></tui-tabs><block wx:for="{{pictureList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="content"><image src="{{item.image_url}}" mode></image></view></block></view>

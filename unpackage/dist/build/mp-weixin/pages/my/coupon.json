@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "优惠券",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tui-tabs": "/components/tui-tabs/tui-tabs"
+  }
+}
